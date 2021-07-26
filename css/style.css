@@ -1,0 +1,336 @@
+*
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body
+{
+    overflow: hidden;
+}
+
+.ready
+{
+    background-color: rgba(214, 46, 51 );
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 66;
+}
+
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 20rem auto;
+   
+  }
+  
+  .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #fff;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+  }
+  .sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s; }
+  .sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s; }
+  .sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  
+  @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1); 
+    }
+  }
+  
+  @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+    } 
+  }
+
+header
+{
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.layer
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+
+}
+.contant
+{
+    position: relative;
+    z-index: 2;
+    color: white ;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.contant h1
+{
+    font-size: 3.5rem;
+   
+}
+.contant p
+{
+ font-size: 14px;
+}
+/*-----------------------------------------------*/
+
+.left-cornar
+{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 60;
+    width: 25%;
+    color: transparent;
+   
+}
+.items
+{
+    width: 80%;
+    padding: 2rem 0.5rem;
+    position: relative;
+    background-color: rgb(65,70,88);
+
+}
+.items i
+{
+    position: absolute;
+    top:30px;
+    right: 30px;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.items i:hover
+{
+    color: rgba(155, 44, 48);
+}
+
+.items ul
+{
+    list-style-type: none;
+    margin-top: 3rem;
+}
+.items li
+{
+    padding: 1.5rem 0px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.items a
+{
+    text-decoration: none ;
+    color: white;
+    transition: 0.5s;
+}
+
+.items a:hover
+{
+    color: rgba(155, 44, 48);
+}
+
+.nav-open 
+{
+    font-size: 25px;
+    color: white;
+   
+}
+.nav-open i ,.nav-open span
+{
+    cursor: pointer;
+    
+}
+
+
+/*---------------------------------------*/
+
+.div-show 
+{
+    width: 50%;
+}
+.back
+{
+    background-color: rgb(230,130,133);
+}
+.first-div
+{
+    background-color: #ccc;
+}
+
+.first-div h2
+{
+    background-color: rgb(230,130,133);
+    color: white;
+    font-size: 1.4rem;
+    padding-bottom: 5px;
+    cursor: pointer;
+    
+
+}
+
+.first-div p
+{
+    font-size: 0.9rem;
+    padding: 10px;
+    display: none;
+ 
+ 
+}
+
+
+/*------------------------------------------------*/
+
+#duration
+{
+ background-image: url(../img/invitation-2508607__340.jpg);
+ background-position: center center;
+ background-size: cover;
+ height: 50vh;
+ position: relative;
+}
+
+.shape
+{
+    width: 20%;
+    height: 50%;
+    border: 1px solid #fff;
+    position: relative;
+    z-index: 55;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+/*----------------------------------------------------*/
+
+
+#contact
+{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.head h2
+{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.head p
+{
+    text-align: center;
+    color: #777;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+form .value
+{
+    height: 200px;
+}
+
+.number
+{
+    color: #D62E33;
+    padding-top: 0.5rem !important;
+    font-size: 1.4rem;
+}
+form button
+{
+    background-color: #D62E33;
+    font-size: 0.9rem !important;
+}
+
+.data-content h3
+{
+    color: #444;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.data-content p
+{
+    color: #777;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.data-content .color
+{
+    color:#D62E33 ;
+}
+.data-content .color i
+{
+    color: #777;
+}
+.data-content p i
+{
+    margin-right: 1rem;
+}
+
+
+.icon i
+{
+    padding: 1.2rem;
+    border: 1px solid #999;
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+
+.icon i:hover
+{
+    background-color: #D62E33;
+    color: white;
+}
+
+
+
+
+
